@@ -9,7 +9,8 @@
     <color name="white">#FFFFFFFF</color>
 
     <!-- Mios-->
-    <color name="background">#111111</color>
+    <color name="background">#151515</color>
     <color name="backgroundToolBar">#3C3C3C</color>
+    <color name="textGray">#959595</color>
 
 </resources>
