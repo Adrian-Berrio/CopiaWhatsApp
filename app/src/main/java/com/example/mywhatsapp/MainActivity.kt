@@ -140,7 +140,9 @@ fun MyChat() {
             Row {
                 Image(
                     painter = painterResource(id = R.drawable.ic_check),
-                    contentDescription = "Check view"
+                    contentDescription = "Check view",
+                    colorFilter = ColorFilter.tint(colorResource(id = R.color.textGray)),
+                    modifier = Modifier.size(20.dp). padding(end = 8.dp)
                 )
                 Text(
                     text = "Tú: Leche: 105",
